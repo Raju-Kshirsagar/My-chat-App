@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ChatService, Message } from '.././../chat.service';
+//import { ChatService, Message } from '.././../chat.service';
+import { ChatService, Message } from './chat.service';
 import { Observable } from 'rxjs';
 //import 'rxjs/add/operator/scan';
 import { scan } from 'rxjs/operators';
@@ -16,7 +17,7 @@ export class ChatDialogComponent implements OnInit {
   formValue: string;
 
   constructor(public chat: ChatService) {
-   /*setInterval(() => {
+  /*setInterval(() => {
              this.date = new Date();
            }, 1);*/
    }

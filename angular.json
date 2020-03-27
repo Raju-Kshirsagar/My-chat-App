@@ -118,6 +118,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "My-chat-App"
+    }
+  },
+  "defaultProject": "My-chat-App",
+  "cli": {
+    "analytics": "12855ea4-298b-4685-8559-c5e697ff0ff7"
+  }
 }
